@@ -1,23 +1,9 @@
+The apt-get is a command-line based package manager that comes packed with the Debian-based Linux distributions (e.g., Ubuntu). It facilitates installing, updating and removing software. Important commands are apt-get update to update your package lists, apt-get upgrade to upgrade all the installed packages, apt-get install to install the software you need and apt-get remove to remove packages. This is crucial for efficient system software maintenance and organization.
 
-1- apt-get is a command line interface for retrieval of packages
-and information about them from authenticated sources and
-for installation, upgrade and removal of packages together
-with their dependencies.
+yum (Yellowdog Updater Modified) is a package manager for RPM-based Linux systems like CentOS and Red Hat. It facilitates software installation, updates, and dependency resolution. Common commands include yum install <package-name> for installation, yum update to update all packages, and yum remove <package-name> to remove software. It simplifies software management on RPM systems.
+wget command is a non-interactive utility to download content from web. Users can download one single or full directories or even entire web pages recursively as it supports HTTP, HTTPS and FTP protocols. You could use wget to download a file from the given URL or use options such as -c to continue interrupted downloads (making it useful for downloading online content).
 
-2- YUM (Yellowdog Updater, Modified) is a command-line package-management
-utility for RPM-compatible Linux operating systems. It allows you to install 
-packages with the syntax, yum install [package] . It can also update, and 
-remove software.
+In Linux, a very common compression and archiving format is the gzip tar combination. Gzip command compresses the file using Gzip algorithm, reduces the disk space for file storage or transfer. Tar (short for "tape archive"), on the other hand, is used to combine several files into one archive file, usually with the. tar extension. And together they create compressed archive files (. tar. gz (tar -czvf archive. tar. gz file1 file2, which combines file1 and file2 into a single. tar. gz file.
 
-3- Wget is a command-line tool that makes it possible to download files from
-the internet directly to your active directory. It operates in the background,
-allowing tasks to continue even if you're offline
 
-4- Tar and Gzip are two of the most common utilities for archiving and 
-compressing files. More specificly, tar is used for archiving and gzip is 
-used for compression, however the two are most often used in conjunction.
-
-5- The rar command in Linux is used to work with RAR archives. 
-RAR (Roshal ARchive) is a proprietary archive file format that supports data 
-compression, error recovery, and file spanning. The rar command allows you to 
-create, extract, and manage RAR archive files. 
+The rar command is used to compress and extract .rar files, a popular proprietary archive format. It supports advanced features like error recovery and file spanning. Commands such as rar a archive.rar file1 file2 create an archive containing file1 and file2, while rar x archive.rar extracts files from an archive. It is widely used for creating compressed archives that require robust compression and error handling.

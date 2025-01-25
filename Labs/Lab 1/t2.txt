@@ -1,0 +1,45 @@
+
+1. Show architecture of the machine:
+   uname -m
+
+2. Show CPU info:
+   cat /proc/cpuinfo
+
+3. Show version of the kernel:
+   uname -r
+
+4. Show system date:
+   date
+
+5. Set date and time:
+   sudo date -s "YYYY-MM-DD HH:MM:SS"
+
+6. Show details of files and directories:
+   ls -l
+
+7. Show hidden files:
+   ls -la
+
+8. Show files and directories containing numbers:
+   ls | grep '[0-9]'
+
+9. Create a directory called 'dir1':
+   mkdir dir1
+
+10. Create two directories simultaneously:
+    mkdir dir2 dir3
+
+11. Show the path of the current working directory:
+    pwd
+
+12. Delete a file called 'file1':
+    rm file1
+
+13. Remove a directory called 'dir1' and its contents recursively:
+    rm -r dir1
+
+14. Delete a directory called 'dir1':
+    rmdir dir1
+
+15. Modify the timestamp of a file or directory:
+    touch dir2

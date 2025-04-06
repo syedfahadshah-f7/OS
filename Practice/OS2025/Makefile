@@ -1,9 +1,9 @@
-output: celrofer.o
-	g++ celrofer.o -o output
-ctof: celrofer.cpp
-	g++ celrofer.cpp 
+out: ctof.o
+	g++ ctof.o -o out
+ctof.o: celrofer.cpp
+	g++ -c celrofer.cpp  -o ctof.o
 clean: 
-	rm -f *.o output
+	rm -f *.o out
 
 run: 
-	./output
+	./out
